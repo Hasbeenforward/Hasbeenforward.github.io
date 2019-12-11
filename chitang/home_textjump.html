@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>养生推荐</title>
+
+</head>
+<script>
+		var name = $.getUrlParam('name');
+		var id = $.getUrlParam('id');
+ 
+		window.onload = function(){
+			$("#addname").val(name);
+			$("#addid").val(id);
+		}
+	</script>
+<Style>
+	.texttitle{
+		text-align: center;
+		border-bottom-width: 1 ;
+		border-bottom-style: solid;
+		border-bottom-color: #349F3F;
+		
+
+	}
+
+</Style>
+<body>
+
+<label>测试URL中的name是：</label>
+		<input type="text" id="addname" />
+		<label>测试URL中的id是：</label>
+		<input type="text" id="addid" />
+
+
+	
+</body>
+</html>
